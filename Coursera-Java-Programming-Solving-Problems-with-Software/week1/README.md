@@ -1,4 +1,5 @@
 <h1>week 1 of Coursera-Java-Programming-Solving-Problems-with-Software</h1>
+<h2>Finding a Gene in DNA</h2>
 <h3>Part 1: Finding a Gene - Using the Simplified Algorithm</h3>
 <p>
 This assignment is to write the code from the lesson from scratch by following the steps below. This will help you see if you really understood how to put the code together, and might identify a part that you did not fully understand. If you get stuck, then you can go back and watch the coding videos that go with this lesson again. We recommend you try this with many of the future Java coding examples before starting programming exercises.
