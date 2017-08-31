@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=strlink\ file_lock
+comment0.target=java.util.List\ getLinkfromFile(java.lang.String,\ java.lang.String)
+comment1.params=strlink\ file_URL
+comment1.target=java.util.List\ getLinkfromLink(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ testing()
+numComments=3
