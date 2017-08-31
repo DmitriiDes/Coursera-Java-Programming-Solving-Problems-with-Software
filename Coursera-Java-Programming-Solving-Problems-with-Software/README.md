@@ -1,5 +1,5 @@
 Content:
 <p>Week 1</p>
-Week 2
-Week 3
-Week 4
+<p>Week 2</p>
+<p>Week 3</p>
+<p>Week 4</p>
