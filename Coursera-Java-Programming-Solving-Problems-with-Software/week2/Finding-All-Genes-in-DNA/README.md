@@ -1,40 +1,41 @@
 <h1>week 1 of Coursera-Java-Programming-Solving-Problems-with-Software</h1>
 
-Finding All Genes in DNA
+<h2>Finding All Genes in DNA</h2>
 
-Part 1: Finding many Genes
+<h3>Part 1: Finding many Genes</h3>
 
 This assignment is to write the code from the lesson to make the following improvements to your algorithm:
-
-A. Find a gene in a strand of DNA where the stop codon could be any of the three stop codons “TAA”, “TAG”, or “TGA”.
-
-B. Find all the genes (where the stop codon could be any of the three stop codons) in a strand of DNA.
-
+<p>
+<b>A.</b> Find a gene in a strand of DNA where the stop codon could be any of the three stop codons “TAA”, “TAG”, or “TGA”.
+</p><p>
+<b>B.</b> Find all the genes (where the stop codon could be any of the three stop codons) in a strand of DNA.
+</p><p>
 This will help you see if you really understood how to put the code together, and might identify a part that you did not fully understand. If you get stuck, then you can go back and watch the coding videos that go with this lesson again.
-
+</p><p>
 Specifically, you should do the following:
-
-1. Create a new Java project named StringsSecondAssignments. You can put all the classes for this programming exercise in this project.
-
-2. Create a new Java Class named Part1. The following methods go in this class.
-
-3. Write the method findStopCodon that has three parameters, a String parameter named dna, an integer parameter named startIndex that represents where the first occurrence of ATG occurs in dna, and a String parameter named stopCodon. This method returns the index of the first occurrence of stopCodon that appears past startIndex and is a multiple of 3 away from startIndex. If there is no such stopCodon, this method returns the length of the dna strand.
-
-4. Write the void method testFindStopCodon that calls the method findStopCodon with several examples and prints out the results to check if findStopCodon is working correctly. Think about what types of examples you should check. For example, you may want to check some strings of DNA that have genes and some that do not. What other examples should you check?
-
-5. Write the method findGene that has one String parameter dna, representing a string of DNA. In this method you should do the following:
-
+<ol>
+  <li>
+Create a new Java project named StringsSecondAssignments. You can put all the classes for this programming exercise in this project.
+  </li><li>
+Create a new Java Class named Part1. The following methods go in this class.
+  </li><li>
+Write the method findStopCodon that has three parameters, a String parameter named dna, an integer parameter named startIndex that represents where the first occurrence of ATG occurs in dna, and a String parameter named stopCodon. This method returns the index of the first occurrence of stopCodon that appears past startIndex and is a multiple of 3 away from startIndex. If there is no such stopCodon, this method returns the length of the dna strand.
+  </li><li>
+Write the void method testFindStopCodon that calls the method findStopCodon with several examples and prints out the results to check if findStopCodon is working correctly. Think about what types of examples you should check. For example, you may want to check some strings of DNA that have genes and some that do not. What other examples should you check?
+  </li><li>
+Write the method findGene that has one String parameter dna, representing a string of DNA. In this method you should do the following:
+<p>
 Find the index of the first occurrence of the start codon “ATG”. If there is no “ATG”, return the empty string.
-Find the index of the first occurrence of the stop codon “TAA” after the first occurrence of “ATG” that is a multiple of three away from the “ATG”. Hint: call findStopCodon.
-Find the index of the first occurrence of the stop codon “TAG” after the first occurrence of “ATG” that is a multiple of three away from the “ATG”. Find the index of the first occurrence of the stop codon “TGA” after the first occurrence of “ATG” that is a multiple of three away from the “ATG”.
-Return the gene formed from the “ATG” and the closest stop codon that is a multiple of three away. If there is no valid stop codon and therefore no gene, return the empty string.
-6. Write the void method testFindGene that has no parameters. You should create five DNA strings. The strings should have specific test cases such as DNA with no “ATG”, DNA with “ATG” and one valid stop codon, DNA with “ATG” and multiple valid stop codons, DNA with “ATG” and no valid stop codons. Think carefully about what would be good examples to test. For each DNA string you should:
-
-Print the DNA string.
-Calculate the gene by sending this DNA string as an argument to findGene. If a gene exists following our algorithm above, then print the gene, otherwise print the empty string.
-7. Write the void method printAllGenes that has one String parameter dna, representing a string of DNA. In this method you should repeatedly find genes and print each one until there are no more genes. Hint: remember you learned a while(true) loop and break.
-
-Part 2: HowMany - Finding Multiple Occurrences
+Find the index of the first occurrence of the stop codon “TAA” after the first occurrence of “ATG” that is a multiple of three away from the “ATG”. Hint: call findStopCodon.</p><p>
+Find the index of the first occurrence of the stop codon “TAG” after the first occurrence of “ATG” that is a multiple of three away from the “ATG”. Find the index of the first occurrence of the stop codon “TGA” after the first occurrence of “ATG” that is a multiple of three away from the “ATG”.</p><p>
+Return the gene formed from the “ATG” and the closest stop codon that is a multiple of three away. If there is no valid stop codon and therefore no gene, return the empty string.</p></li><li>
+Write the void method testFindGene that has no parameters. You should create five DNA strings. The strings should have specific test cases such as DNA with no “ATG”, DNA with “ATG” and one valid stop codon, DNA with “ATG” and multiple valid stop codons, DNA with “ATG” and no valid stop codons. Think carefully about what would be good examples to test. For each DNA string you should:
+  <p>
+    Print the DNA string.</p><p>
+Calculate the gene by sending this DNA string as an argument to findGene. If a gene exists following our algorithm above, then print the gene, otherwise print the empty string.</p></li><li>
+Write the void method printAllGenes that has one String parameter dna, representing a string of DNA. In this method you should repeatedly find genes and print each one until there are no more genes. Hint: remember you learned a while(true) loop and break.
+  </li></ol>
+<h3>Part 2: HowMany - Finding Multiple Occurrences</h3>
 
 This assignment will write a method to determine how many occurrences of a string appear in another string.
 
@@ -46,7 +47,7 @@ Specifically, you should do the following:
 
 3.Write the void method testHowMany has no parameters. Add code in here to call howMany with several examples and print the results. Think carefully about what types of examples would be good to test to make sure your method works correctly.
 
-Part 3: How Many Genes?
+<h3>Part 3: How Many Genes?</h3>
 
 Write a program to count how many genes are in a strand of DNA.
 
