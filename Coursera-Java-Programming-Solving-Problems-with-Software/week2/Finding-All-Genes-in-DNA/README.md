@@ -54,12 +54,12 @@ Write a program to count how many genes are in a strand of DNA.
 </p><p>
 Specifically, you should do the following:
 </p><ol><li>
-1. Create a new Java Class named Part3 in the StringsSecondAssignments project. Put the following methods in this class.
+Create a new Java Class named Part3 in the StringsSecondAssignments project. Put the following methods in this class.
   </li><li>
-2. Copy your methods from Part1 to find one gene and print all genes.
+Copy your methods from Part1 to find one gene and print all genes.
   </li><li>
-3. Write the method named countGenes that has a String parameter named dna representing a string of DNA. This method returns the number of genes found in dna. For example the call countGenes(“ATGTAAGATGCCCTAGT”) returns 2, finding the gene ATGTAA first and then the gene ATGCCCTAG. Hint: This is very similar to finding all genes and printing them, except that instead of printing all the genes you will count them.
+Write the method named countGenes that has a String parameter named dna representing a string of DNA. This method returns the number of genes found in dna. For example the call countGenes(“ATGTAAGATGCCCTAGT”) returns 2, finding the gene ATGTAA first and then the gene ATGCCCTAG. Hint: This is very similar to finding all genes and printing them, except that instead of printing all the genes you will count them.
   </li><li>
-4. Write the void method named testCountGenes that has no parameters. This method calls countGenes with many example strings and prints the result for each. You should create several examples with different numbers of genes to test your code.
+Write the void method named testCountGenes that has no parameters. This method calls countGenes with many example strings and prints the result for each. You should create several examples with different numbers of genes to test your code.
   </li></ol><p>
   <b>Note:</b> The code is cutting strings and operates using modified versions. However, taking into account memory usage, I would rather implement index based approach. To see it in practice please proceed to the Using The Storage Resource Class</p>
