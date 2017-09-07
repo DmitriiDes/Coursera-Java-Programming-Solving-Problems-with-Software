@@ -1,3 +1,7 @@
+<h1>week 1 of Coursera-Java-Programming-Solving-Problems-with-Software</h1>
+
+Finding All Genes in DNA
+
 Part 1: Finding many Genes
 
 This assignment is to write the code from the lesson to make the following improvements to your algorithm:
