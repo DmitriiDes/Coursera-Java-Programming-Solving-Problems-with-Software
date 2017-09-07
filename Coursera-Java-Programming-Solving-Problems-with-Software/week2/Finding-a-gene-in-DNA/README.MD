@@ -1,4 +1,4 @@
-<h1>week 1 of Coursera-Java-Programming-Solving-Problems-with-Software</h1>
+<h1>week 2 of Coursera-Java-Programming-Solving-Problems-with-Software</h1>
 <h2>Finding a Gene in DNA</h2>
 <h3>Part 1: Finding a Gene - Using the Simplified Algorithm</h3>
 <p>
