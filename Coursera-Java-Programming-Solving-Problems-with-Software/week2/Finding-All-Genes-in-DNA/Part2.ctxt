@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=stringa\ stringb
+comment0.target=int\ howMany(java.lang.String,\ java.lang.String)
+numComments=1
