@@ -31,7 +31,7 @@ Write the void method processGenes that has one parameter sr, which is a Storage
 print the number of Strings in sr that are longer than 9 characters</li><li>
 print the Strings in sr whose C-G-ratio is higher than 0.35</li><li>
 print the number of strings in sr whose C-G-ratio is higher than 0.35</li><li>
-print the length of the longest gene in sr</li><li></ul>
+print the length of the longest gene in sr</li></ul>
 <p>
 Write a method testProcessGenes. This method will call your processGenes method on different test cases. Think of five DNA strings to use as test cases. These should include: one DNA string that has some genes longer than 9 characters, one DNA string that has no genes longer than 9 characters, one DNA string that has some genes whose C-G-ratio is higher than 0.35, and one DNA string that has some genes whose C-G-ratio is lower than 0.35. Write code in testProcessGenes to call processGenes five times with StorageResources made from each of your five DNA string test cases.
 </p><p>
