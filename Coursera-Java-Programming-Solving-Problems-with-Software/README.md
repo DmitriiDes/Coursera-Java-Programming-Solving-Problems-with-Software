@@ -13,7 +13,7 @@
       Week 3</a>
   </li>
   <li>
-  <a href="#">
+  <a href="https://github.com/DmitriiDes/Coursera-Java-Programming-and-Software-Engineering-Fundamentals/tree/master/Coursera-Java-Programming-Solving-Problems-with-Software/week4">
       Week 4</a>
   </li>
 
